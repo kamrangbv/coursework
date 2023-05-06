@@ -1,0 +1,45 @@
+section {
+  background-color: #f6f4f2;
+  height: 100vh;
+}
+
+section .image {
+  width: 38%;
+  position: absolute;
+  bottom: 0%;
+}
+
+section .image img {
+  width: 100%;
+}
+
+section .form {
+  width: 27%;
+  position: absolute;
+  top: 30%;
+  right: 17%;
+}
+
+section .form a {
+  color: black;
+}
+
+section .form input {
+  margin-top: 20px;
+  padding: 5px;
+  width: 100%;
+  height: 45px;
+}
+
+section .form .btn {
+  padding: 0;
+}
+
+section .form .btn button {
+  color: #fff;
+  background-color: black;
+  padding: 5px;
+  width: 160px;
+  height: 45px;
+}
+/*# sourceMappingURL=signin.css.map */

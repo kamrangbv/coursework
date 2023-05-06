@@ -1,0 +1,342 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* li {
+  list-style-type: none;
+}
+
+* li a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #fffe;
+  height: 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
+}
+
+header .container {
+  height: 100%;
+}
+
+header .container .row {
+  height: 100%;
+}
+
+header .container .row .nav-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .row .nav-links ul li {
+  margin-right: 20px;
+}
+
+header .container .row .nav-links ul li .collection-item {
+  width: 14%;
+  background: black;
+  position: absolute;
+  padding: 18px;
+  border-radius: 8px;
+  top: 65px;
+  left: 37%;
+  display: none;
+  -webkit-transition: top 20px, ease-in-out 2s;
+  transition: top 20px, ease-in-out 2s;
+}
+
+header .container .row .nav-links ul li .collection-item .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+}
+
+header .container .row .nav-links ul li .collection-item .item a {
+  margin-right: 20px;
+  color: #fff;
+}
+
+header .container .row .nav-links ul li .collection-item .item img {
+  width: 40%;
+}
+
+header .container .row .nav-links ul li .moments-item {
+  display: none;
+  position: absolute;
+  background: black;
+  border-radius: 5px;
+  top: 65px;
+  left: 45%;
+  padding: 20px 10px;
+}
+
+header .container .row .nav-links ul li .moments-item ul {
+  display: block;
+}
+
+header .container .row .nav-links ul li .moments-item ul li {
+  margin-top: 10px;
+}
+
+header .container .row .nav-links ul li .moments-item ul li a {
+  color: #fff;
+}
+
+header .container .row .nav-links ul li a {
+  color: black;
+  font-size: 20px;
+}
+
+header .container .row .nav-links ul li a i {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+header .container .row .nav-links ul li a:hover {
+  color: #c09478;
+}
+
+header .container .row .search-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .row .search-cart a {
+  color: black;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+header .container .row .search-cart a .fa-user {
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1420px;
+}
+
+.container .category ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.container .category ul span {
+  margin-right: 10px;
+}
+
+.container .category ul li {
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .category ul li a {
+  color: black;
+  font-weight: 200;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container .category ul li a i {
+  margin-left: 5px;
+}
+
+.container .earrings {
+  position: relative;
+}
+
+.container .earrings .item {
+  position: relative;
+  margin-top: 20px;
+}
+
+.container .earrings .item .price {
+  position: absolute;
+  height: 85%;
+  width: 93%;
+  opacity: 0;
+  top: 0;
+  right: 3%;
+}
+
+.container .earrings .item .price:hover {
+  opacity: 1;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.container .earrings .item .price span {
+  position: absolute;
+  top: 83%;
+  right: 47%;
+}
+
+.container .earrings .item .title {
+  padding: 10px;
+}
+
+.container .earrings .item .title .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .earrings .item .title .name a {
+  color: black;
+  font-size: 28px;
+}
+
+.container .earrings .item .image {
+  height: auto;
+}
+
+.container .earrings .item img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .earrings .item-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  width: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .earrings .item-a .item {
+  width: 48%;
+}
+
+.container .earrings .item-a .item img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .earrings .item-b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 71%;
+  right: 50%;
+  width: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .earrings .item-b .item {
+  width: 48%;
+}
+
+.container .earrings .item-b .item img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  border-top: 1px solid #c4c1c1;
+  background-color: #f1f2f3;
+  padding-bottom: 20px;
+}
+
+footer .container .row ul span {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+footer .container .row ul li {
+  margin-top: 10px;
+}
+
+footer .container .row ul li a {
+  color: black;
+}
+
+footer .container .row .form {
+  position: relative;
+}
+
+footer .container .row .form input {
+  padding: 10px;
+  width: 290px;
+}
+
+footer .container .row .form button {
+  color: #fff;
+  background-color: black;
+  padding: 10px 25px;
+  position: absolute;
+}
+
+footer .container .row .social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+footer .container .row .social ul li {
+  margin-right: 10px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=earrings.css.map */

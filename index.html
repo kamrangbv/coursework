@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- *bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- *bootstrap -->
+    <!-- *Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- *Box Icons -->
+    <!-- *Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <!-- *Fontawesome -->
+    <!-- *Carousel link start -->
+    <link rel="stylesheet" href="./assets/scss/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./assets/scss/owl.theme.default.min.css" />
+    <!-- *Carousel link end -->
+    <link rel="stylesheet" href="./assets/scss/assets/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="search">
+      <div class="close-btn d-flex justify-content-end">
+        <a class="search-close" href=""><i class="fa-solid fa-xmark"></i></a> 
+      </div>
+      <div class="search-input">
+        <i class='bx bx-search-alt-2 bx-tada' ></i>
+        <input type="text" placeholder="I am looking for...">
+      </div>
+    </div>
+    <div class="responsive-hamburger-page">
+      <ul>
+        <li  class="home"><a href="#bg-image">Home</a><a class="closed" href=""><i class="fa-solid fa-xmark"></i></a></li>
+        <li><a class="res-collect-Btn" href="">Collections<i class="fa-solid fa-angle-down"></i></a>
+          <div class="res-collection-item">
+            <div class="item">
+              <a href="./assets/earrings.html">Earrings</a>
+              <img src="./assets/images/nav-img-1.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="item">
+              <a href="./assets/earrings.html">Rings</a>
+              <img src="./assets/images/BE1PD25R25_white_Round_top_75_carat.png" class="img-fluid" alt="">
+            </div>
+            <div class="item">
+              <a href="./assets/earrings.html">Necklaces</a>
+              <img src="./assets/images/nav-img-3.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="item">
+              <a href="./assets/earrings.html">Bracelet</a>
+              <img src="./assets/images/nav-img-4.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+      </li>
+      <li><a class="res-moments-btn" href="">Moments<i class="fa-solid fa-angle-down"></i></a>
+        <div class="res-moments-item">
+         <ul>
+          <li><a href="">Most Popular Gifts</a></li>
+          <li><a href="">Anniversary</a></li>
+          <li><a href="">Bridal</a></li>
+          <li><a href="">Birthday</a></li>
+         </ul>
+        </div>
+      </li>
+        <li><a href="">About</a></li>
+        <li><a href="">Shop</a></li>
+      </ul>
+    </div>
+    <header>
+      <div class="row">
+        <div class="nav-hamburger d-none col-md-4 col-sm-4 col-4">
+          <a class="hamburger-btn" href=""><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <div class="title d-flex align-items-center justify-content-center col-lg-3 col-md-4 col-sm-4 col-4">
+         <a class="text-decoration-none text-dark" href="#bg-image"> <h2>Jewellery</h2></a>
+        </div>
+        <div class="nav-links col-lg-6 ">
+          <ul>
+            <li><a href="#bg-image">Home</a></li>
+            <li><a class="collect-Btn" href="">Collections<i class="fa-solid fa-angle-down"></i></a>
+              <div class="collection-item">
+                <div class="item">
+                  <a href="./assets/earrings.html">Earrings</a>
+                  <img src="./assets/images/nav-img-1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="item">
+                  <a href="./assets/earrings.html">Rings</a>
+                  <img src="./assets/images/BE1PD25R25_white_Round_top_75_carat.png" class="img-fluid" alt="">
+                </div>
+                <div class="item">
+                  <a href="./assets/earrings.html">Necklaces</a>
+                  <img src="./assets/images/nav-img-3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="item">
+                  <a href="./assets/earrings.html">Bracelet</a>
+                  <img src="./assets/images/nav-img-4.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+          </li>
+          <li><a class="moments-btn" href="">Moments<i class="fa-solid fa-angle-down"></i></a>
+            <div class="moments-item">
+             <ul>
+              <li><a href="">Most Popular Gifts</a></li>
+              <li><a href="">Anniversary</a></li>
+              <li><a href="">Bridal</a></li>
+              <li><a href="">Birthday</a></li>
+             </ul>
+            </div>
+          </li>
+            <li><a href="">About</a></li>
+            <li><a href="">Shop</a></li>
+          </ul>
+        </div>
+        <div class="search-cart col-lg-3 col-md-4 col-sm-4 col-4">
+          <a class="search-btn" href=""><i class="bx bx-search-alt-2"></i></a>
+          <a class="shopping-cart-btn" href=""><i class="bx bx-shopping-bag"></i><span class="shopping-count">0</span></a>
+          <a href="./assets/signin.html"><i class="fa-regular fa-user"></i></a>
+          <div class="shopping-cart-list">
+            <b class="fs-5 text-white my-3">Shopping Cart</b>
+            <!-- <div class="list-item mt-3">
+              <div class="row align-items-center">
+                <div class="col-md-3">
+                  <img src="./assets/images/nav-img-1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-5">
+                  <div class="title">
+                    bbhdhshd
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="price">$100</div>
+                </div>
+                <div class="col-md-2">
+                  <a class="remove-btn" href=""><i class="fa-regular fa-trash-can"></i></a>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="bg-image"></section>
+      <section id="new-arrivals">
+        <div class="container mt-5 mb-5">
+          <div class="title mb-4">
+            <h2>New Arrivals</h2>
+          </div>
+          <div class="owl-carousel owl-theme">
+            <div class="card-item">
+              <img
+                class="image"
+                src="./assets/images/slider-imgs/slider-img-1.jpg"
+                alt=""
+              />
+              <img
+                class="hov-img"
+                src="./assets/images/slider-imgs/slider-img-1-2.jpg"
+                alt=""
+              />
+              <p><span class="card-title">Double Chain Bracelet</span><span><a class="btn" href=""><i class='bx bx-cart'></i></a></span></p>
+              <p class="card-price"><b>$75</b></p>
+            </div>
+            <div class="card-item">
+              <img
+                class="image"
+                src="./assets/images/slider-imgs/slider-img-2.jpg"
+                alt=""
+              />
+              <img
+                class="hov-img"
+                src="./assets/images/slider-imgs/slider-img-2-2.jpg"
+                alt=""
+              />
+              <p><span class="card-title">Lena Charm Necklace</span><span><a class="btn" href=""><i class='bx bx-cart'></i></a></span></p>
+              <p class="card-price"><b>$125</b></p>
+            </div>
+            <div class="card-item">
+              <img
+                class="image"
+                src="./assets/images/slider-imgs/slider-img-3.jpg"
+                alt=""
+              />
+              <img
+                class="hov-img"
+                src="./assets/images/slider-imgs/slider-img-3-2.jpg"
+                alt=""
+              />
+              <p><span class="card-title">Harris Reed in Good</span><span><a class="btn" href=""><i class='bx bx-cart'></i></a></span></p>
+              <p class="card-price"><b>$198</b></p>
+            </div>
+            <div class="card-item">
+              <img
+                class="image"
+                src="./assets/images/slider-imgs/slider-img-4.jpg"
+                alt=""
+              />
+              <img
+                class="hov-img"
+                src="./assets/images/slider-imgs/slider-img-4-2.avif"
+                alt=""
+              />
+              <p><span class="card-title">The Single Shared Prong</span><span><a class="btn" href=""><i class='bx bx-cart'></i></a></span></p>
+              <p class="card-price"><b>$1350</b></p>
+            </div>
+            <div class="card-item">
+              <img
+                class="image"
+                src="./assets/images/slider-imgs/slider-img-5.jpg"
+                alt=""
+              /><img
+                class="hov-img"
+                src="./assets/images/slider-imgs/slider-img-5-2.avif"
+                alt=""
+              />
+              <p><span class="card-title">Bezel Solitaire Necklace</span><span><a class="btn" href=""><i class='bx bx-cart'></i></a></span></p>
+              <p class="card-price"><b>$395</b></p>
+            </div>
+            <div class="card-item">
+              <img
+                class="image"
+                src="./assets/images/slider-imgs/slider-img-6.avif"
+                alt=""
+              /><img
+                class="hov-img"
+                src="./assets/images/slider-imgs/slider-img-6-2.avif"
+                alt=""
+              />
+              <p><span class="card-title">The Devotion Band</span><span><a class="btn" href=""><i class='bx bx-cart'></i></a></span></p>
+              <p class="card-price"><b>$950</b></p>
+            </div>
+            <div class="card-item">
+              <img
+                class="image"
+                src="./assets/images/slider-imgs/slider-img-7.jpg"
+                alt=""
+              /><img
+                class="hov-img"
+                src="./assets/images/slider-imgs/slider-img-7-2.jpg"
+                alt=""
+              />
+              <p><span class="card-title">Hot Rox Gemstone Stacking Ring</span><span><a class="btn" href=""><i class='bx bx-cart'></i></a></span></p>
+              <p class="card-price"><b>$170</b></p>
+            </div>
+            <div class="card-item">
+                <img
+                  class="image"
+                  src="./assets/images/slider-imgs/slider-img-8.jpg"
+                  alt=""
+                /><img
+                  class="hov-img"
+                  src="./assets/images/slider-imgs/slider-img-8-2.jpg"
+                  alt=""
+                />
+                <p><span class="card-title">Lucy Williams Square Necklace</span><span><a class="btn" href=""><i class='bx bx-cart'></i></a></span></p>
+                <p class="card-price"><b>$95</b></p>
+              </div>
+              <div class="card-item">
+                <img
+                  class="image"
+                  src="./assets/images/slider-imgs/slider-img-9.jpg"
+                  alt=""
+                /><img
+                  class="hov-img"
+                  src="./assets/images/slider-imgs/slider-img-9-2.jpg"
+                  alt=""
+                />
+                <p><span class="card-title">Squiggle Pendant Necklace</span><span><a class="btn" href=""><i class='bx bx-cart'></i></a></span></p>
+                <p class="card-price"><b>$135</b></p>
+              </div>
+              <div class="card-item">
+                <img
+                  class="image"
+                  src="./assets/images/slider-imgs/slider-img-10.jpg"
+                  alt=""
+                /><img
+                  class="hov-img"
+                  src="./assets/images/slider-imgs/slider-img-10-2.jpg"
+                  alt=""
+                />
+                <p><span class="card-title">Squiggle Wavy Stacking Ring</span><span><a class="btn" href=""><i class='bx bx-cart'></i></a></span></p>
+                <p class="card-price"><b>$75</b></p>
+              </div>
+              <div class="card-item">
+                <img
+                  class="image"
+                  src="./assets/images/slider-imgs/slider-img-11.jpg"
+                  alt=""
+                /><img
+                  class="hov-img"
+                  src="./assets/images/slider-imgs/slider-img-11-2.jpg"
+                  alt=""
+                />
+                <p><span class="card-title">The Five Stone Band</span><span><a class="btn" href=""><i class='bx bx-cart'></i></a></span></p>
+                <p class="card-price"><b>$1450</b></p>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section id="parallax-img">
+        <div
+          class="parallax-window mt-5"
+          data-parallax="scroll"
+          data-image-src="./assets/images/bee_fasteners_white_wide_1950x.jpg"
+        ></div>
+      </section>
+      <section id="collections">
+        <div class="container mt-5 mb-5">
+            <div class="title mb-4 text-center">
+                <h2>Collections</h2>
+            </div>
+          <div class="row justify-content-center">
+            <div class="item col-lg-4 col-md-12 col-sm-12 col-12">
+              <img src="./assets/images/category/category-1.jpg" alt="" />
+              <div class="btn">
+                <a href="./assets/earrings.html">Shop Necklaces</a>
+              </div>
+            </div>
+            <div class="item col-lg-4 col-md-12 col-sm-12 col-12">
+              <img src="./assets/images/category/category-2.jpg" alt="" />
+              <div class="btn">
+                <a href="./assets/earrings.html">Shop Rings</a>
+              </div>
+            </div>
+            <div class="item col-lg-4 col-md-12 col-sm-12 col-12">
+              <img src="./assets/images/category/category-3.jpg" alt="" />
+              <div class="btn">
+                <a href="./assets/earrings.html">Shop Earrings</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="feeling">
+        <div class="title text-center mt-3 mb-4">
+          <h2>Felling</h2>
+        </div>
+        <div class="cards row">
+          <div class="card-item col-lg-2">
+            <img src="./assets/images/feeling/feeling-1.jpg" alt="">
+           <div class="shop">
+            <a href="">shop Now</a>
+           </div>
+          </div>
+          <div class="card-item col-lg-2">
+            <img src="./assets/images/feeling/feeling-2.jpg" alt="">
+            <div class="shop">
+              <a href="">shop Now</a>
+             </div>
+          </div>
+          <div class="card-item col-lg-2">
+            <img src="./assets/images/feeling/feeling-3.jpg" alt="">
+            <div class="shop">
+              <a href="">shop Now</a>
+             </div>
+          </div>
+          <div class="card-item col-lg-2">
+            <img src="./assets/images/feeling/feeling-4.jpg" alt="">
+            <div class="shop">
+              <a href="">shop Now</a>
+             </div>
+          </div>
+          <div class="card-item col-lg-2">
+            <img src="./assets/images/feeling/feeling-5.jpg" alt="">
+            <div class="shop">
+              <a href="">shop Now</a>
+             </div>
+          </div>
+          <div class="card-item col-lg-2">
+            <img src="./assets/images/feeling/feeling-6.jpg" alt="">
+            <div class="shop">
+              <a href="">shop Now</a>
+             </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-1 mt-5">
+        <div class="row">
+          <div class="col-lg-3">
+            <ul>
+              <span>Contact Us</span>
+              <li><a href=""><b>Jewellery@gmail.com</b></a></li>
+              <li><a href="">Book an appointment</a></li>
+              <li><a href="">Showroom locations</a></li>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Location: Azerbaijan</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <ul>
+              <span>Support</span>
+              <li><a href="">Shipping $ delivery</a></li>
+              <li><a href="">Returns</a></li>
+              <li><a href="">Warrantly</a></li>
+              <li><a href="">Ring Sizer</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <ul>
+              <span>Company</span>
+              <li><a href="">Our Mission</a></li>
+              <li><a href="">In the Media</a></li>
+              <li><a href="">Journal</a></li>
+              <li><a href="">Terms of use</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-5">
+            <h4>STAY UPDATED</h4>
+            <p>Join our mailing list and be the first to hear about new designs, guides and more.</p>
+            <div class="form">
+              <input type="email" placeholder="Enter your email">
+              <button>Submit</button>
+            </div>
+            <div class="social">
+              <ul>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-dribbble"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-2">
+      <div class="footer-top">
+      <div class="input mt-4">
+        <div class="title">
+          <h4>STAY UPDATED</h4>
+          <p>Join our mailing list and be the first to hear about new designs, guides and more.</p>
+        </div>
+        <div class="email">
+          <input type="text" placeholder="Enter your email">
+          <button>Submit</button>
+        </div>
+        <div class="social-icons mt-3">
+          <ul>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-dribbble"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-end">
+      <ul>
+        <li><a class="contact-btn" href=""><b>Contact Us</b><i class="fa-solid fa-angle-right"></i></a>
+          <div class="contact-us">
+            <ul>
+              <li><b>Jewellery@gmail.com</b></li>
+              <li>Book an appointment</li>
+              <li>Showroom locations</li>
+              <li>FAQs</li>
+            </ul>
+          </div>
+        </li>
+        <li><a class="support-btn" href=""><b>Support</b><i class="fa-solid fa-angle-right"></i></a>
+          <div class="support">
+            <ul>
+              <li>Shipping & delivery</li>
+              <li>Returns</li>
+              <li>Warrantly</li>
+              <li>Ring Sizer</li>
+            </ul>
+          </div>
+        </li>
+        <li><a class="company-btn" href=""><b>Company</b><i class="fa-solid fa-angle-right"></i></a>
+          <div class="company">
+            <ul>
+              <li>Our Mission</li>
+              <li>In the media</li>
+              <li>Journal</li>
+              <li>Terms of use</li>
+              <li>Privacy policy</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <p class="text-center">© 2022 VRAI BY DIAMOND FOUNDRY</p>
+    </div>
+      </div>
+    </footer>
+    <!-- ?Jqery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- ?Jqery -->
+    <!-- ?Parallax Plugin -->
+    <script src="./assets/js/parallax.min.js"></script>
+    <!-- ?Parallax Plugin -->
+    <!-- ?Carousel -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <!-- ?Carousel -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
